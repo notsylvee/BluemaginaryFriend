@@ -3,7 +3,7 @@ const fs = require("fs/promises");
 module.exports = {
     data: {
         name: "voiceline",
-        description: "Sends a random Imaginary Friend voiceline",
+        description: "Sends a random Bluemaginary Friend voiceline",
         "integration_types": [0, 1],
         "contexts": [0, 1, 2]
     },

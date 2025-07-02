@@ -6,7 +6,7 @@ module.exports = {
         if (!message.channel.id === `1359404696149819412`) return;
 
         client.user.setPresence({
-              status: "dnd",
+              status: "online",
               activities: [
                 {
                   type: ActivityType.Custom,
