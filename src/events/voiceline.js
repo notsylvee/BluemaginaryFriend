@@ -39,7 +39,8 @@ module.exports = {
             "Can we go over there?",
             "What will happen when time runs out? Eh, probably best not to think about it.",
             "The air reeks of death.",
-            "Why are you following me?"
+            "Why are you following me?",
+            "You're boring, You know that? I don't like your attitude either. I have done nothing to you. Yet you treat me like this."
         ];
         const voiceLine = voiceLines[Math.floor(Math.random() * voiceLines.length)];
         if (chance < 249) {
