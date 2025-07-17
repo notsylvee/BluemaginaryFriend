@@ -13,6 +13,6 @@ module.exports = {
         const voicelines = voicelinesMap["voicelines"];
         const voiceline = voicelines[Math.floor(Math.random() * voicelines.length)];
             
-        await interaction.reply({ content: `${voiceline.text}` });
+        await interaction.reply({ content: `<:BlumaginaryFriend:1395288604196212827> ${voiceline.text}` });
       },
 }
