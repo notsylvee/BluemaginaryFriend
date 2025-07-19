@@ -17,7 +17,7 @@ module.exports = {
         if (chance < 398) {
             return;
           } else {
-            message.channel.send(`<:ImaginaryFriend:1395290833942745088> ${voiceline}`);
+            message.channel.send(`<:BlumaginaryFriend:1395288604196212827> ${voiceline.text}`);
           };
     },
 };
