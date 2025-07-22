@@ -4,16 +4,15 @@ const fs = require("fs/promises");
 module.exports = {
     name: "messageCreate",
     async execute(message) {
-
-        if (message.author.bot || !message.guild) return;
+        if (message.author.id !== "1394598431942643712") return;
 
         const voicelinesJsonData = await fs.readFile("data/voicelines.json", {encoding: "utf8"});
         const voicelinesMap = JSON.parse(voicelinesJsonData);
-        const voicelines = voicelinesMap["chatlines"];
+        const voicelines = voicelinesMap["angler"];
         const voiceline = voicelines[Math.floor(Math.random() * voicelines.length)];
         
-        const chance = Math.random() * 400;
-        if (chance < 398) {
+        const chance = Math.random() * 100;
+        if (chance < 90) {
             return;
           } else {
             message.channel.send(`<:BlumaginaryFriend:1395288604196212827> ${voiceline.text}`).catch((err) => {return});

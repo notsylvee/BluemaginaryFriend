@@ -16,7 +16,6 @@
         { "text": "Were they right about you?" },
         { "text": "Can you stop following me?" },
         { "text": "Why are you following me?" },
-        { "text": "I don't want to freak you out, but I think I heard something." },
         { "text": "Oh. That wall isn't painted with blood. They just used regular paint. That's nice." },
         { "text": "It's nine thirty. There's fish everywhere." },
         { "text": "Do you hear that?" },
@@ -35,7 +34,15 @@
         { "text": "What?" },
         { "text": "Huh." },
         { "text": "I'm tired." },
-        { "text": "The air reeks of death." }
+        { "text": "The air reeks of death." },
+        { "text": "You don’t own those. Y-you should return it, I think." },
+        { "text": "Can you stop stealing things." },
+        { "text": "That *isn't yours.*" },
+        { "text": "You don’t own that." },
+        { "text": "Put that down. It’s not nice to take stuff without asking." },
+        { "text": "Don’t do that." },
+        { "text": "WATCH OUT!! S-sorry." },
+        { "text": "I don't want to freak you out, but I think I heard something." }
     ],
     "chatlines": [
         { "text": "You look scared. Or not. You never really change your expression." },
@@ -73,5 +80,9 @@
         { "text": "Huh." },
         { "text": "I'm tired." },
         { "text": "The air reeks of death." }
+    ],
+    "angler": [
+        { "text": "WATCH OUT!! S-sorry." },
+        { "text": "I don't want to freak you out, but I think I heard something." }
     ]
 }
